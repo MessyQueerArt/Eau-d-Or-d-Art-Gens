@@ -4,27 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Messy Abstract NFT</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <div class="container">
-    <div class="left">
-      <img src="images/abstract-scribble.png" alt="Abstract Scribble" class="scribble" />
-      <div class="text">
-        <p>
-          <strong>Messy, boring, abstract art—on purpose.</strong><br>
-          Every NFT funds bold, Queer-led projects and creative action.<br>
-          It’s not perfect. It’s not polished.<br>
-          It’s powerful.<br>
-          Own a piece of the mess.<br>
-          Help change the world.
-        </p>
-      </div>
+<body class="bg-black text-white">
+  <!-- Header Image -->
+  <div class="w-full flex justify-center py-6">
+    <img src="images/abstract-scribble.png" alt="Abstract Scribble" class="w-full max-w-4xl" />
+  </div>
+
+  <!-- Text + Flag Section -->
+  <div class="flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-12 gap-8">
+    <!-- Text Block -->
+    <div class="max-w-xl text-center md:text-left">
+      <p>
+        <strong>Messy, boring—on purpose, abstract art.</strong><br>
+        Every NFT funds bold, Queer-led projects and creative action.<br>
+        This is not about perfection. It’s not polished.<br>
+        It’s about people. It's about community.<br>
+        It’s powerful.<br>
+        Own a piece of the mess.<br>
+        Help change the world.
+      </p>
     </div>
-    <div class="right">
-      <div class="oval-image">
-        <img src="images/pride-flag.png" alt="Pride Flags" />
-      </div>
+
+    <!-- Flag Image -->
+    <div class="w-full max-w-xs">
+      <img src="images/pride-flag.png" alt="Pride Flag" class="w-full rounded-xl shadow-lg" />
+    </div>
+  </div>
+
+  <!-- Why These NFTs Matter Section -->
+  <div class="mt-16 text-white max-w-2xl mx-auto px-6">
+    <h2 class="text-2xl font-semibold mb-4">Why these NFTs matter</h2>
+    <p class="mb-4">
+      These NFTs are more than just digital pieces — they are seeds of support, celebration, and shared love.
+    </p>
+    <p class="mb-4">
+      The first funds raised will offer a month of paid rest to Mathieu, who created a space of art, culture, and connection — a place where love can travel, meet, and be celebrated in peace, joy, harmony, or with a sparkle of playful madness.
+    </p>
+    <p class="mb-4">
+      The next step is to support the launch of a unique and brave project led by my dear friend Æris — a true visionary of community care. Their work builds a safe, inclusive, and open space for free, conscious, and loving intimacy between adults who meet in respect, safety, and mutual joy.
+    </p>
+    <p>
+      As the journey unfolds, these tokens will help fund more events and creations rooted in the same spirit — spreading across Europe and, why not, around the world.
+    </p>
+  </div>
+
+  <!-- Links Section -->
+  <div class="mt-12 text-center space-y-4">
+    <p class="text-lg">Explore & collect the NFTs:</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="https://your-manifold-link.com" target="_blank" class="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition">
+        Mint on Manifold
+      </a>
+      <a href="https://opensea.io/your-collection" target="_blank" class="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition">
+        View on OpenSea
+      </a>
+      <a href="https://paper.xyz/your-checkout-link" target="_blank" class="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition">
+        Buy with Card (via Paper)
+      </a>
     </div>
   </div>
 </body>
